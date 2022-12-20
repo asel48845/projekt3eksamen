@@ -1,0 +1,645 @@
+body{
+    background-color: var(--graa);
+    overflow-x:hidden}
+
+/*definerer de forskellige farver*/
+:root{
+    --green:#4A5B55;
+    --footer:#C2CEC4;
+    --graa: #E8E8E8;
+    --gul:#EBEACF;
+    font-family: Raleway;
+}
+
+
+/*den grønne header*/
+.header{
+    height: 166px;
+    width: 100%;
+    background-color: var(--green);
+    margin: -8px;
+    position: fixed;
+    z-index: 3;
+
+}
+
+/*knappen der åbner en dropdown*/
+
+.dropdown-indhold{
+    display: none;
+    position: fixed;
+    background-color: var(--green);
+    width: 100%;
+    height: 300px;
+    margin-left: -10px;
+    z-index: 3;
+}
+
+.dropdownknap{
+    background-color: white;
+    font-size: 20px;
+font-family: Raleway;
+border: none;
+}
+.dropdownknap:hover{
+    background-color: var(--footer);
+    
+
+
+}
+.knap{
+    
+    width: 50%;
+   top: 0px;
+    margin: 10px 10px;
+    position: fixed;
+    
+    
+}
+    .dropdown-indhold a{
+
+        text-decoration: none;
+        color: white;
+        font-family: Raleway;
+        margin: 3px;
+        position: relative;
+        top: 5px;
+        line-height: 4.5;
+        letter-spacing: 2.5px;
+        padding: 10px
+    }
+
+    .logo {
+        height: 500px;
+        width: 500px;
+         display: block;
+         background:transparent url('fiddi-01.png') 0 0 no-repeat;
+         animation: player 2s steps(45) infinite;
+         transform: scale(0.3);
+         top:0;
+         padding: 0;
+         
+         margin-top: -275px;
+         margin-left: 20%;
+     }
+     .menu2{display: none;}
+
+     @keyframes player{
+         0% {
+             background-position:0 0;
+             transform: scale(0.3);
+           
+         }
+         100% {
+             background-position: 0 -22500px;
+             transform: scale(0.3);
+             
+         }
+     }
+     .logostor{
+        height: 500px;
+        width: 500px;
+         display: none;
+         background:transparent url('fiddi-01.png') 0 0 no-repeat;
+         animation: player 2s steps(45) infinite;
+         transform: scale(0.7);
+         top:0;
+         padding: 0;
+         margin-left: 20%;
+
+     }
+     
+
+     @keyframes player{
+         0% {
+             background-position:0 0;
+    
+           
+         }
+         100% {
+             background-position: 0 -22500px;
+             
+             
+         }
+     }
+        
+     
+
+
+
+
+.gallerimedstore{
+    display:none
+}
+
+
+.menu2 a{
+
+    text-decoration: none;
+    color: white;
+    font-family: Raleway;
+    margin: 3px;
+    position: relative;
+    top: 5px;
+    line-height: 4.5;
+    letter-spacing: 2.5px;
+    padding: 10px
+}
+
+     .spacer{
+        height: 55px;
+     }
+     .boks1:hover{
+background-color:var(--footer);
+     }
+
+     .boks2:hover{
+        background-color: var(--footer)
+             }
+             .boks3:hover{
+                background-color:var(--footer);
+                     }
+                     .boks4:hover{
+                        background-color: var(--footer);
+                             }
+    .show{display: block;}
+
+.er{
+    
+    font-size: 30px;
+}
+
+
+    
+
+    
+
+.migsomperson{background-color: white;
+width: 329px;
+height: 390px;
+margin-bottom: 20px;
+margin-left: 20px;
+margin-right: 20px;}
+.migsomperson a{
+    text-decoration: none;
+    color: black;
+    font-family: Raleway;
+    margin-left: 10px;
+    position:absolute;
+    margin-top: 0px;
+    width: 300px;
+}
+
+.overskrift{
+    height: 50px;
+    width: 100%;
+    font-family: Raleway;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+.baggrund{
+    background-color: white;
+    width: 329px;
+    height: 200px;
+    
+    position: static;
+    display: block;
+  z-index: 1;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -10px;
+    
+    
+}
+.billedeafmig{
+    margin-top:-293px;
+    padding: 0;
+    position: fixed;
+    z-index: 2;
+    margin-left: -100px;
+    transform: scale(0.25);
+
+}
+.andet{
+    background-color:var(--graa);
+    width: 335px;
+    height: 180px;
+    margin: 0;
+    
+}
+
+
+.kontakt{
+    background-color: white;
+    width: 335px;
+    height: 200px;
+    top: 550px;
+    position: static;
+    display: block;
+  z-index: 1;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+}
+.osv{
+    background-color:var(--graa);
+    width: 335px;
+    height: 180px;
+    margin: 0;}
+.kontakt a{
+    text-decoration: none;
+    color: black;
+    font-family: Raleway;
+    margin-left: 10px;
+  position:absolute;
+    margin-top: 10px;
+    z-index: 1;
+    width: 315px;
+}
+.galleri{
+   width: 329px;
+   height: 190px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    z-index: 5;
+    
+
+}
+.top{
+    height: 150px;
+}
+.bund{
+    height: 50px;
+}
+/*logo*/
+.visninglogo{
+    background: orange;
+    height: 200px;
+    width: 100%;
+
+}
+
+.visninglogo    {width: 500px;
+    height: 500px;
+    display: block;
+    background: url('fiddi-01.png') 0 0 no-repeat;
+    margin: 3em auto;
+    animation: play 3s steps(45) infinite;
+    margin-left: -63px;
+    margin-top: -80px;
+    
+    }
+    @keyframes play {
+    0%{background-position:0 0;
+        transform: scale(0.7);}
+    
+    100%{background-position: 0 -22500px;
+        transform: scale(0.7);}
+    }
+    .logob{
+    background-color: white;
+        margin-top: -100px;
+        width: 350px;
+        height: 200px;
+        margin-left: 12px;
+        
+        position: fixed;
+    }
+    .logob a p {
+        margin-left: 10px;
+    font-family: Raleway;
+    margin-top: 10px;
+    }
+/*pingvin*/
+.visningpingvin{
+ margin-left:23px;
+margin-top: 10px;}
+.pingvinb{
+    background-color: white;
+    margin-top: 20px;
+    width: 329px;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: fixed;
+}
+.pingvinb a p{
+    margin-left: 10px;
+    font-family: Raleway;
+    margin-top: 10px;
+}
+/*pære*/
+.visningpaere{width: 500px;
+    height: 500px;
+    background: url('sidste-01.png') 0 0 no-repeat;
+    animation: paere 3s steps(32) infinite;
+    margin-top: -80px;
+    margin-left: -60px;
+    
+    
+    }
+    @keyframes paere {
+    0%{background-position:0px;
+        transform: scale(0.7);}
+    
+    100%{background-position: -16000px;
+        transform: scale(0.7);}
+    }
+        .paereb{
+        background-color: white;
+            margin-top: -50px;
+            width: 350px;
+            height: 200px;
+            margin-left: 15px;
+            
+            position: fixed;
+        }
+    .paereb a p {
+        margin-left: 10px;
+    font-family: Raleway;
+    margin-top: 10px;
+    }
+    /*pentool*/
+    .visningpentool{
+        margin-left: 23px;
+    }
+    .pentoolb{
+        background-color: white;
+        margin-top: 20px;
+        width: 329px;
+        height: 200px;
+        margin-left: 20px;
+        margin-right: 20px;
+        position: fixed;
+    }
+    .pentoolb a p{
+        margin-left: 10px;
+    font-family: Raleway;
+    margin-top: 10px;
+    }
+
+/*hjemmeside*/
+.visninghjemmeside{
+    margin-left: 20px;
+}
+.hjemmesideb{
+    background-color: white;
+        margin-top: 20px;
+        width: 329px;
+        height: 200px;
+        margin-left: 20px;
+        margin-right: 20px;
+        position: fixed;
+}
+.hjemmesideb a p{
+    margin-left: 10px;
+    font-family: Raleway;
+    margin-top: 10px;
+}
+
+/*stop-motion*/
+.visningsm{
+    margin-left: 23px;
+    
+}
+.smb{
+    background-color: white;
+    margin-top: 20px;
+    width: 329px;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: fixed;
+}
+.smb a p{
+    margin-left: 10px;
+    font-family: Raleway;
+    margin-top: 10px;
+}
+
+
+
+@media (min-width:600px) {
+    .header{
+        height: 300px;
+    }
+
+.dropdownknap{
+    display:none
+}
+.denhele{margin-left: 240px;}
+
+.logo{
+
+     display: none;
+}
+.logostor{
+    display:block;
+    margin-top:-442px;
+    z-index:-1;
+    margin-left: 300px;
+}
+.dropdown-indhold{display:none;}
+.er{display:none}
+
+.menu2{display:flex;
+margin-top: 200px;
+margin-left: 150px;
+width: 700px;
+height: 50px;
+justify-content: space-between;
+
+}
+.galleri{display:none}
+
+.gallerimedstore{
+display:flex;
+float: left;
+margin-left: -150px;
+margin-top: 80px;
+margin-bottom: -220px;
+transform: scale(0.5);
+margin-top: -50px;
+}
+.baggrund{
+    margin-top: 180px;
+    margin-left: 50px;
+    height: 446px;
+    width: 334px;
+}
+.migsomperson{
+    margin-top: -465px;
+    margin-left: 450px;
+    width: 500px;
+    height: 446px;
+}
+.migsomperson a{width: 450px;
+    margin-top: 20px;
+margin-left: 30px;}
+.billedeafmig{margin-top: -20px;
+transform: scale(0.5);}
+.kontakt{
+    margin-top: 219px;
+    margin-left: 260px;
+    width: 500px;
+}
+.hjemmesideb{
+    margin-top: -261px;
+    margin-left: 40px;
+}
+.visninghjemmeside{margin-top: 300px;
+    margin-left: 550px;
+    transform: scale(1.7);}
+.visningpaere{
+    margin-top: 200px;
+    margin-left: 460px;
+}
+.paereb{margin-top: -425px;
+    margin-left: 100px; }
+.visningsm{
+    margin-top: 300px;
+    margin-left: 550px;
+    transform: scale(1.7);   
+    }
+.smb{
+    margin-top: -261px;
+    margin-left: 40px;
+    }
+.pentoolb{
+    margin-top: -298px;
+    margin-left: 40px; 
+    }
+.visningpentool{
+    margin-top: 300px;
+    margin-left: 550px;
+    transform: scale(1.7); 
+    }
+.logob{
+    margin-top: -473px;
+    margin-left: 100px;}
+.visninglogo{  margin-top: 100px;
+    margin-left: 460px; }
+.pingvinb{
+    margin-top: -261px;
+    margin-left: 40px;
+
+        }
+.visningpingvin{
+    margin-top: 300px;
+    margin-left: 550px;
+    transform: scale(1.7);
+        
+        }
+}
+
+
+@media only screen and (min-width: 1025px){
+    .header{
+        height: 300px;
+    }
+
+.dropdownknap{
+    display:none
+}
+.logo{
+
+     display: none;
+}
+.logostor{
+    display:block;
+    margin-top:-442px;
+    z-index:-1;
+    margin-left: 700px;
+}
+.dropdown-indhold{display:none;}
+.er{display:none}
+
+.menu2{display:flex;
+margin-top: 200px;
+margin-left: 580px;
+width: 700px;
+height: 50px;
+justify-content: space-between;
+
+}
+.denhele{margin-left: 0px;}
+.galleri{display:none}
+
+.gallerimedstore{
+display:flex;
+float: left;
+margin-left: 110px;
+margin-top: 80px;
+margin-bottom: 50px;
+transform: scale(1);
+}
+.baggrund{
+    margin-top: 180px;
+    margin-left: 50px;
+    height: 446px;
+    width: 334px;
+}
+.migsomperson{
+    margin-top: -465px;
+    margin-left: 500px;
+    width: 900px;
+    height: 446px;
+}
+.migsomperson a{width: 800px;
+    margin-top: 20px;
+margin-left: 30px;}
+.billedeafmig{margin-top: -20px;
+transform: scale(0.5);}
+.kontakt{
+    margin-top: 219px;
+    margin-left: 700px;
+    width: 500px;
+}
+.hjemmesideb{
+margin-top: -290px;
+margin-left: 300px;
+}
+.visninghjemmeside{margin-top: 300px;
+    margin-left: 1100px;
+transform: scale(2);}
+.visningpaere{
+    margin-top: 200px;
+    margin-left: 900px;
+}
+.paereb{margin-top: -425px;
+    margin-left: 500px; }
+    .visningsm{
+        margin-top: 300px;
+        margin-left: 1100px;
+        transform: scale(2);    
+    }
+    .smb{
+        margin-top: -290px;
+        margin-left: 300px;
+    }
+    .pentoolb{
+        margin-top: -330px;
+        margin-left: 300px; 
+    }
+    .visningpentool{
+        margin-top: 320px;
+        margin-left: 1100px;
+    transform: scale(2);
+    }
+    .logob{margin-top: -470px;
+        margin-left: 500px;}
+    .visninglogo{ margin-top: 200px;
+        margin-left: 900px; }
+        .pingvinb{
+            margin-top: -290px;
+margin-left: 300px;
+        }
+        .visningpingvin{
+            margin-top: 320px;
+            margin-left: 1100px;
+        transform: scale(2);
+        
+        }
+}
